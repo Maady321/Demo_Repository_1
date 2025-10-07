@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>HOGUM DNA Sci-Fi UI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top-nav">
+    <div class="logo">HOGUM</div>
+    <nav>
+      <a href="#">ABOUT US</a>
+      <a href="#">SERVICES</a>
+      <a href="#">RESEARCH</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </header>
+  <main>
+    <section class="circle-nav-container">
+      <ul class="circle-nav">
+        <li style="--i:0"><a href="#"><i class="fas fa-home"></i></a></li>
+        <li style="--i:1"><a href="#"><i class="fas fa-info"></i></a></li>
+        <li style="--i:2"><a href="#"><i class="fas fa-cog"></i></a></li>
+        <li style="--i:3"><a href="#"><i class="fas fa-microscope"></i></a></li>
+        <li style="--i:4"><a href="#"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+      <!-- Real animated DNA helix, pure SVG + JS for live effect -->
+     <canvas id="dna-canvas" width="360" height="520"></canvas>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
