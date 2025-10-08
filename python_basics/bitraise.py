@@ -29,3 +29,4 @@ r = p ^ q
 s = ~p
 print(r)
 print(s)
+
